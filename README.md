@@ -1,0 +1,2 @@
+# pythonEd
+Python curses
