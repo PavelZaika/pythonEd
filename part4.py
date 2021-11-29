@@ -21,4 +21,22 @@ if type_of_var == int:
     print('done')
 
 # Part - 4
-# Lesson - 14
+# Lesson - 15
+
+greeting = 'Hello Python!'
+greeting_length = len(greeting)
+print(greeting_length)
+print(greeting[0])
+print(greeting[2:5])
+print(greeting[6:10])
+print(greeting[-5:-2])
+print(greeting[2:])
+print(greeting[:5])
+print(greeting[:])
+print(greeting[::2])
+print(greeting[1::3])
+print(greeting[1:9:3])
+print(greeting[::-1])
+
+# Part - 4
+# Lesson - 16
