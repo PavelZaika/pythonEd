@@ -26,12 +26,12 @@ if type_of_var == int:
 greeting = '0123456789!'
 greeting_length = len(greeting)
 print(greeting_length)  # длина
-print(greeting[0])  # первый символ
+print(greeting[0])  # нулевой символ (он же первый)
 print(greeting[2:5])  # с 2 по 5(5 не включает)
 print(greeting[6:10])  # с 6 по 9 включительно
 print(greeting[-5:-2])  # с конца с пятого символа до второго с конца
-print(greeting[2:])  # с третьего символа до конца
-print(greeting[:5])  # с первого до 5(с нулевого до 4 включительно)
+print(greeting[2:])  # с 2 символа до конца
+print(greeting[:5])  # с 0 до 5(с нулевого до 4 включительно)
 print(greeting[:])  # все
 print(greeting[::2])  # с первого до конца каждые 2
 print(greeting[1::3])  # с первого до конца каждый третий
