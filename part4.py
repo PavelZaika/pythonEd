@@ -7,7 +7,7 @@ print('Hello World!')
 # Part - 4
 # Lesson - 12
 
-print(2 ** 3)
+print(2 ** 3) # возведение в степень
 print(2345 % 2)
 
 # Part - 4
