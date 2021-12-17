@@ -3,11 +3,10 @@
 
 print('Hello World!')
 
-
 # Part - 4
 # Lesson - 12
 
-print(2 ** 3) # возведение в степень
+print(2 ** 3)  # возведение в степень
 print(2345 % 2)
 
 # Part - 4
@@ -40,3 +39,15 @@ print(greeting[::-1])  # Развернуть строку
 
 # Part - 4
 # Lesson - 16
+
+# Multiplication
+yummy = 'Yum'
+print(yummy * 2)  # YumYum
+
+# Methods
+print(yummy.upper())  # YUM
+print(yummy.lower())  # yum
+
+long_string = 'This is a long long string'
+print(long_string.split())  # ['This', 'is', 'a', 'long', 'long', 'string']
+print(long_string.split('s'))  # ['Thi', ' i', ' a long long ', 'tring']
