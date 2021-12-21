@@ -51,3 +51,38 @@ print(yummy.lower())  # yum
 long_string = 'This is a long long string'
 print(long_string.split())  # ['This', 'is', 'a', 'long', 'long', 'string']
 print(long_string.split('s'))  # ['Thi', ' i', ' a long long ', 'tring']
+
+# Part - 4
+# Lesson - 17
+
+name = 'Jack'
+age = 23
+name_and_age = 'My name is {0}. I\'m {1} years old.'.format(name, age)
+print(name_and_age)
+name_and_age = 'My name is {0}. I\'m {1} years old.'.format('Jack', 23)
+print(name_and_age)
+name_and_age = 'My name is {}. I\'m {} years old.'.format(name, age)
+print(name_and_age)
+
+week_days = 'There are 7 days in a week: {1},{2},{3},{4},{5},{6},{0}.'.format(
+    'Sun', 'Mon', 'Tue', 'Wed', 'Thus', 'Frid', 'Sat')
+print(week_days)  # There are 7 days in a week: Mon,Tue,Wed,Thus,Frid,Sat,Sun.
+
+week_days = 'There are 7 days in a week: {mo},{tu},{we},{th},{fr},{sa},{su}.'.format(
+    su='Sun', mo='Mon', tu='Tue', we='Wed', th='Thus', fr='Frid', sa='Sat')
+print(week_days)  # There are 7 days in a week: Mon,Tue,Wed,Thus,Frid,Sat,Sun.
+
+
+float_res = 1000 / 7
+print(float_res)
+print('The result of division is {0:1.3f}'.format(float_res))
+print(f'The result of division is {float_res:1.3f}')
+print(f'The result of division is {float_res:1.7f}')
+
+
+name = 'Jack'
+age = 23
+name_and_age = 'My name is {0}. I\'m {1} years old.'.format(name, age)
+print(name_and_age)
+name_and_age = f'My name is {name}. I\'m {age} years old.'
+print(name_and_age)
