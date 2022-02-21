@@ -39,7 +39,7 @@ print(number_list)  # [32, 323, 2, 1, 1.2]
 print(deleted_item)  # 3Three
 
 print(number_list)  # [32, 323, 2, 1, 1.2]
-# удаляет по значению, но удаляет только попавшийся элемент
+# удаляет по значению, но удаляет только первый попавшийся элемент
 deleted_item = number_list.remove(1.2)
 print(number_list)  # [32, 323, 2, 1]
 print(deleted_item)  # None
@@ -55,3 +55,9 @@ print(letter_list)  # ['a', 'a', 'c', 'd', 'q', 's', 'y']
 
 one_list.reverse()  # разворачивает список
 print(one_list)  # [89, 45, 12, 5, 3, 2, 1]
+
+
+# Part - 4
+# Lesson - 19
+
+# Dictionaries
