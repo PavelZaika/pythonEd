@@ -3,9 +3,6 @@
 
 # Lists
 
-from operator import ne
-
-
 number_list = [32, 323, 2, 1, 1.2, '2Two']
 print(number_list)  # [32, 323, 2, 1, 1.2, '2Two']
 
@@ -119,6 +116,7 @@ print(person.values())
 
 # dict_items([('first name', 'Jack'), ('last name', 'Brown'), ('age', 43), ('hobbies', ['basketball', 'singing', 'photo']), ('children', {'son': 'Michael', 'daughter': 'Pamela'}), ('car', 'Mazda')])
 print(person.items())
+
 
 # Part - 4
 # Lesson - 20
