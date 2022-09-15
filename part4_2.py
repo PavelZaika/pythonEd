@@ -3,6 +3,9 @@
 
 # Lists
 
+from operator import ne
+
+
 number_list = [32, 323, 2, 1, 1.2, '2Two']
 print(number_list)  # [32, 323, 2, 1, 1.2, '2Two']
 
@@ -121,3 +124,39 @@ print(person.items())
 # Lesson - 20
 
 # Tuples
+
+tuple_1 = 1, 2, 3
+tuple_2 = ('one', 'hello')
+tuple_3 = (3, 2.3, 'three')
+
+
+print(type(tuple_1))  # <class 'tuple'>
+
+print(tuple_1)  # (1, 2, 3)
+print(tuple_2)  # ('one', 'hello')
+print(tuple_3)  # (3, 2.3, 'three')
+
+# tuple_1[1] = 3 # TypeError: 'tuple' object does not support item assignment
+
+print(tuple_1[0])  # 1
+
+new_tuple = (tuple_1[0], 3, tuple_1[-1])
+print(new_tuple)  # (1, 3, 3)
+
+# Example
+x = y = z = 12
+print(x, y, z)  # 12 12 12
+x, y, z = 12, 13, 14
+print(x, y, z)  # 12 13 14
+
+person_tuple = ('John', 'Smith', 1988)
+first_name, last_name, year_of_birth = person_tuple
+print(first_name, last_name, year_of_birth)  # John Smith 1988
+
+t1 = (1, 2, 5, 1, 7, 9)
+print(t1.count(1))  # 2
+
+greetings_tuple = ('hi', 'hello', 'hi')
+print(greetings_tuple.count('hi'))  # 2
+
+print(t1.index(7))  # 4
