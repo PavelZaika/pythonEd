@@ -49,6 +49,7 @@ letter_list = ['a', 'd', 's', 'q', 'a', 'y', 'c']
 print(one_list)  # [1, 2, 3, 45, 89, 12, 5]
 one_list.sort()  # сортировка
 print(one_list)  # [1, 2, 3, 5, 12, 45, 89]
+
 print(letter_list)  # ['a', 'd', 's', 'q', 'a', 'y', 'c']
 letter_list.sort()  # сортировка
 print(letter_list)  # ['a', 'a', 'c', 'd', 'q', 's', 'y']
@@ -61,3 +62,42 @@ print(one_list)  # [89, 45, 12, 5, 3, 2, 1]
 # Lesson - 19
 
 # Dictionaries
+
+car_prices = {'opel': 5000, 'toyota': 7000, 'bmw': 10000}
+print(car_prices)  # {'opel': 5000, 'toyota': 7000, 'bmw': 10000}
+
+print(car_prices['toyota'])  # 7000
+car_prices['mazda'] = 4000
+
+# {'opel': 5000, 'toyota': 7000, 'bmw': 10000, 'mazda': 4000}
+print(car_prices)
+
+car_prices['opel'] = 2000
+# {'opel': 2000, 'toyota': 7000, 'bmw': 10000, 'mazda': 4000}
+print(car_prices)
+
+del car_prices['toyota']
+print(car_prices)  # {'opel': 2000, 'bmw': 10000, 'mazda': 4000}
+
+car_prices.clear()
+print(car_prices)  # {}
+
+person = {
+    'first name': 'Jack',
+    'last name': 'Brown',
+    'age': 43,
+    'hobbies': ['football', 'singing', 'photo'],
+    'children': {'son': 'Michael', 'daughter': 'Pamela'}
+}
+
+print(person['age'])  # 43
+
+print(person['hobbies'])  # ['football', 'singing', 'photo']
+
+hobbies = person['hobbies']
+print(hobbies[2])  # photo
+print(person['hobbies'][2])  # photo
+
+children = person['children']
+print(children['son'])  # Michael
+print(person['children']['son'])  # Michael
