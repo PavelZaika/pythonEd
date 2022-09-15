@@ -101,3 +101,23 @@ print(person['hobbies'][2])  # photo
 children = person['children']
 print(children['son'])  # Michael
 print(person['children']['son'])  # Michael
+
+person['car'] = 'Mazda'
+print(person['car'])  # Mazda
+
+person['hobbies'][0] = 'basketball'
+print(person['hobbies'])  # ['basketball', 'singing', 'photo']
+
+# dict_keys(['first name', 'last name', 'age', 'hobbies', 'children', 'car'])
+print(person.keys())
+
+# dict_values(['Jack', 'Brown', 43, ['basketball', 'singing', 'photo'], {'son': 'Michael', 'daughter': 'Pamela'}, 'Mazda'])
+print(person.values())
+
+# dict_items([('first name', 'Jack'), ('last name', 'Brown'), ('age', 43), ('hobbies', ['basketball', 'singing', 'photo']), ('children', {'son': 'Michael', 'daughter': 'Pamela'}), ('car', 'Mazda')])
+print(person.items())
+
+# Part - 4
+# Lesson - 20
+
+# Tuples
