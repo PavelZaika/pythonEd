@@ -85,3 +85,8 @@ print(x != y)
 
 age = int(input('Input your age: '))
 print('Access is permitted: ' + str(age >= 18))
+
+# Part - 4
+# Lesson - 24
+
+# Логические операторы
