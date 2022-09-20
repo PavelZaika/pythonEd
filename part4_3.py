@@ -115,8 +115,8 @@ print(True and False)
 print(True or False)
 
 name = 'John'
-age = 13
+age = 19
 is_married = False
 
-if age > 18 or is_married == False:
+if age > 18 and is_married == False:
     print('Hi {}! You can find a girl of your dream here!'.format(name))
