@@ -11,7 +11,7 @@
           "debugOptions": [
               "WaitOnAbnormalExit",
               "WaitOnNormalExit",
-              "RedirectOutput"
+              "RedirectOutput"/*  */
           ],
           "console": "integratedTerminal"
       }
